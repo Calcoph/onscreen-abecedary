@@ -1,0 +1,20 @@
+[#size]
+515#horizontal
+50#vertical
+
+[#initial position]
+1000#horizontal
+50#vertical
+
+[#font size]
+25
+
+[#font family]
+Cascadia code
+
+[#text]
+ABCDEFGHIJKLMNÑOPQRSTUVWXYZ
+
+[#color mode]
+dark# dark/light # Currently useless
+
