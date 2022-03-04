@@ -1,7 +1,8 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QLabel
 from PyQt5.QtGui import QFont
-from config import configuration
+from click import style
+from config import configuration, styles
 
 class AbcWindow(QLabel):
     def __init__(self, config) -> None:
@@ -11,6 +12,13 @@ class AbcWindow(QLabel):
         font.setPointSizeF(configuration["font size"][0])
 
         self.setFont(font)
+
+        if configuration["color mode"][0] == "dark":
+            self.setStyleSheet(styles["dark"])
+        elif configuration["color mode"][0] == "light":
+            self.setStyleSheet(styles["light"])
+        else:
+            self.setStyleSheet(styles["light"])
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)

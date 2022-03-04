@@ -68,6 +68,11 @@ for i in verification:
         print("that key is not in configuration")
         print(section_name)
 
+styles = {
+    "dark": "QLabel { background-color: #000000; color: #FFFFFF }",
+    "light": "QLabel { background-color: #FFFFFF; color: #000000 }",
+}
+
 if __name__ == "__main__":
     for key, value in configuration.items():
         print(f'"{key}": {value}')
