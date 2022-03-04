@@ -1,5 +1,12 @@
 Do you often have to say "abcdefghijklmnopqrstuvwxyz" in your head to remember the order? Fear no more, the answer is here.
 
+# How it looks
+font: cascadia code.
+### dark mode
+![image of the alphabet window in dark mode](examples/example_dark.png)
+### dark mode
+![image of the alphabet window in light mode](examples/example_light.png)
+
 # Configuration
 All configuration can be changed in the "config.txt" file
 
