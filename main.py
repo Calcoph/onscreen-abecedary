@@ -1,6 +1,6 @@
 import sys
 from PyQt5.QtWidgets import QApplication, QLabel
-from PyQt5.QtGui import QFont
+from PyQt5.QtGui import QFont, QIcon
 from click import style
 from config import configuration, styles
 
@@ -19,6 +19,8 @@ class AbcWindow(QLabel):
             self.setStyleSheet(styles["light"])
         else:
             self.setStyleSheet(styles["light"])
+
+        self.setWindowIcon(QIcon("osd alphabet.ico"))
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)
