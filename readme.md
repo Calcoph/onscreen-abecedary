@@ -4,7 +4,7 @@ Do you often have to say "abcdefghijklmnopqrstuvwxyz" in your head to remember t
 font: cascadia code.
 ### dark mode
 ![image of the alphabet window in dark mode](examples/example_dark.png)
-### dark mode
+### light mode
 ![image of the alphabet window in light mode](examples/example_light.png)
 
 # Configuration
